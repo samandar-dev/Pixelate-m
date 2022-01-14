@@ -59,7 +59,7 @@ button {
 
 .sec__text {
   position: relative;
-  width: 690px;
+  width: 590px;
   color: #8B8B8B;
   font-family: 'Heebo', sans-serif;
   font-size: 16px;
@@ -153,6 +153,10 @@ button {
   height: 570px;
 }
 
+.sec__list:nth-child(9) .list__img{
+  margin-top: 7px;
+}
+
 .span::before {
   content: '';
   display: inline-block;
@@ -241,6 +245,10 @@ button {
 .sec__list:nth-child(8n+1) .span::before {
   width: 380px;
   height: 255px;
+}
+
+.sec__list:nth-child(9) .span::before{
+  margin-top: 7px;
 }
 
 .sec__list:hover .span::before {
